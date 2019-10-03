@@ -12,9 +12,7 @@ class ProjectStatusVC: UIViewController {
         
         segmentedControl.addBackgroundView()
         ProjectStatustableView.tableFooterView = UIView()
-        let nib = UINib(nibName: "ProjectStatusCell", bundle: nil)
-        self.ProjectStatustableView.register(nib, forCellReuseIdentifier: String(describing: ProjectStatusCell.self))
-        print("a")
+        ProjectStatustableView.register(UINib(nibName: String(describing: ProjectStatusCell.self), bundle: nil), forCellReuseIdentifier: String(describing: ProjectStatusCell.self))
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -26,13 +24,7 @@ class ProjectStatusVC: UIViewController {
     
     @IBAction private func onClickofSegment(_ sender: Any) {
         reloadTableView()
-        switch segmentedControl.selectedSegmentIndex
-        {
-        case 0:
-            print("")
-        case 1: print("b")
-        default: break
-        }
+
     }
     
     private func reloadTableView() {
@@ -54,9 +46,7 @@ extension ProjectStatusVC: UITableViewDelegate ,UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: ProjectStatusCell.self)) as? ProjectStatusCell else { return ProjectStatusCell() }
-            
-        cell.layer.cornerRadius = 10
-        cell.clipsToBounds = false
+
         cell.selectionStyle = .none
         switch segmentedControl.selectedSegmentIndex {
         case Constants.Segment.janSep:
@@ -68,7 +58,7 @@ extension ProjectStatusVC: UITableViewDelegate ,UITableViewDataSource {
             cell.pilotLaunchStatusLabel.text = viewModel.dataSrc?[0].rows[indexPath.row].pilotDate
             cell.clientLaunchStatusLabel.text = viewModel.dataSrc?[0].rows[indexPath.row].clientLaunchDate
         default:
-            print("")
+            return UITableViewCell()
         }
         return cell
     }
@@ -87,7 +77,7 @@ extension ProjectStatusVC: UITableViewDelegate ,UITableViewDataSource {
         case Constants.Segment.octDec:
             viewModel.setCurrentRow(index: indexPath.row, section: 0)
         default:
-            print("")
+            return
         }
         navigationController?.pushViewController(viewController, animated: true)
     }

@@ -14,6 +14,7 @@ class InitiativeVC: UIViewController {
         tableView.tableFooterView = UIView()
     }
     
+    /// Function to register all required XIBs
     func registerXibs() {
         tableView.register(UINib(nibName: String(describing: DescriptionTVCell.self), bundle: nil), forCellReuseIdentifier: String(describing: DescriptionTVCell.self))
         tableView.register(UINib(nibName: String(describing: LaunchDateTVCell.self), bundle: nil), forCellReuseIdentifier: String(describing: LaunchDateTVCell.self))

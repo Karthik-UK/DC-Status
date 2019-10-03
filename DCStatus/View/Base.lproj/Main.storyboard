@@ -39,7 +39,7 @@
                                 </segments>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
-                                    <action selector="onClickofSegment:" destination="BYZ-38-t0r" eventType="valueChanged" id="fsC-TU-1Yq"/>
+                                    <action selector="onClickofSegment:" destination="BYZ-38-t0r" eventType="valueChanged" id="6KV-gk-Kcz"/>
                                 </connections>
                             </segmentedControl>
                         </subviews>

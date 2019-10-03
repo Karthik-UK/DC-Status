@@ -16,6 +16,7 @@ struct Constants {
     static let initTVCellCount = 6
     static let initiativeTitle = "Initiative"
     static let initiativeHeading = ["Online", "Mobile", "DAA", "Wealth"]
+    static let segmentControlColor = UIColor(red: 0.889415, green: 0.889436, blue: 0.889424, alpha: 1.0 )
     struct FileTypes {
         static let csv = "csv"
         static let xlsx = "xlsx"

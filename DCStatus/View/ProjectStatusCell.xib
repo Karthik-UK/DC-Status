@@ -16,10 +16,6 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="113"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kuQ-PZ-QbF">
-                    <rect key="frame" x="0.0" y="0.0" width="414" height="113"/>
-                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                </view>
                 <view contentMode="scaleToFill" restorationIdentifier="ShadowView" translatesAutoresizingMaskIntoConstraints="NO" id="vzU-sE-eJo" customClass="ShadowView" customModule="DCStatus" customModuleProvider="target">
                     <rect key="frame" x="7" y="5" width="397" height="108"/>
                     <subviews>
@@ -85,13 +81,9 @@
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="vzU-sE-eJo" secondAttribute="trailing" constant="10" id="1lk-Q4-3dh"/>
-                <constraint firstItem="kuQ-PZ-QbF" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="KOK-8m-EWh"/>
                 <constraint firstItem="vzU-sE-eJo" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="N4o-IQ-gfo"/>
                 <constraint firstAttribute="bottom" secondItem="vzU-sE-eJo" secondAttribute="bottom" id="S30-s3-4mp"/>
                 <constraint firstItem="vzU-sE-eJo" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="7" id="kgp-CL-I4I"/>
-                <constraint firstItem="kuQ-PZ-QbF" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="mIP-8W-3fn"/>
-                <constraint firstItem="kuQ-PZ-QbF" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="oNh-qr-Mou"/>
-                <constraint firstAttribute="bottom" secondItem="kuQ-PZ-QbF" secondAttribute="bottom" id="yxl-fX-Qa6"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
