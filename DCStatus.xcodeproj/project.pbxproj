@@ -11,8 +11,6 @@
 		8F016AF22345D0E6003E709B /* TestSheet2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 8F016AF12345D0E6003E709B /* TestSheet2.csv */; };
 		8F016AF62345D158003E709B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F016AF42345D158003E709B /* Constants.swift */; };
 		8F016AF72345D158003E709B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F016AF52345D158003E709B /* Model.swift */; };
-		8F016AFF2345D16A003E709B /* CSVPasrserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F016AF92345D16A003E709B /* CSVPasrserManager.swift */; };
-		8F016B002345D16A003E709B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F016AFA2345D16A003E709B /* ViewModel.swift */; };
 		8F016B072346082B003E709B /* DescriptionTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F016B052346082B003E709B /* DescriptionTVCell.swift */; };
 		8F016B082346082B003E709B /* DescriptionTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F016B062346082B003E709B /* DescriptionTVCell.xib */; };
 		8F016B0B23460851003E709B /* LaunchDateTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F016B0923460851003E709B /* LaunchDateTVCell.swift */; };
@@ -20,6 +18,8 @@
 		8F016B0F2346088C003E709B /* OnlineMobileTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F016B0D2346088C003E709B /* OnlineMobileTVCell.swift */; };
 		8F016B102346088C003E709B /* OnlineMobileTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F016B0E2346088C003E709B /* OnlineMobileTVCell.xib */; };
 		8F799B93234480CF00EA0695 /* ProjectStatusCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F799B92234480CF00EA0695 /* ProjectStatusCell.xib */; };
+		8F859FDA2347071F0035F07F /* CSVPasrserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F859FD42347071E0035F07F /* CSVPasrserManager.swift */; };
+		8F859FDB2347071F0035F07F /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F859FD52347071E0035F07F /* ViewModel.swift */; };
 		8FCA948E234358DA00BBCDC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCA948D234358DA00BBCDC6 /* AppDelegate.swift */; };
 		8FCA9490234358DA00BBCDC6 /* ProjectStatusVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCA948F234358DA00BBCDC6 /* ProjectStatusVC.swift */; };
 		8FCA9493234358DA00BBCDC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FCA9491234358DA00BBCDC6 /* Main.storyboard */; };
@@ -35,8 +35,6 @@
 		8F016AF12345D0E6003E709B /* TestSheet2.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestSheet2.csv; sourceTree = "<group>"; };
 		8F016AF42345D158003E709B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8F016AF52345D158003E709B /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		8F016AF92345D16A003E709B /* CSVPasrserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSVPasrserManager.swift; sourceTree = "<group>"; };
-		8F016AFA2345D16A003E709B /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		8F016B052346082B003E709B /* DescriptionTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionTVCell.swift; sourceTree = "<group>"; };
 		8F016B062346082B003E709B /* DescriptionTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DescriptionTVCell.xib; sourceTree = "<group>"; };
 		8F016B0923460851003E709B /* LaunchDateTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchDateTVCell.swift; sourceTree = "<group>"; };
@@ -44,6 +42,8 @@
 		8F016B0D2346088C003E709B /* OnlineMobileTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineMobileTVCell.swift; sourceTree = "<group>"; };
 		8F016B0E2346088C003E709B /* OnlineMobileTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnlineMobileTVCell.xib; sourceTree = "<group>"; };
 		8F799B92234480CF00EA0695 /* ProjectStatusCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProjectStatusCell.xib; sourceTree = "<group>"; };
+		8F859FD42347071E0035F07F /* CSVPasrserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSVPasrserManager.swift; sourceTree = "<group>"; };
+		8F859FD52347071E0035F07F /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		8FCA948A234358DA00BBCDC6 /* DCStatus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCStatus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FCA948D234358DA00BBCDC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FCA948F234358DA00BBCDC6 /* ProjectStatusVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectStatusVC.swift; sourceTree = "<group>"; };
@@ -97,14 +97,13 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		8F016AF82345D16A003E709B /* ViewModel */ = {
+		8F859FD32347071E0035F07F /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				8F016AF92345D16A003E709B /* CSVPasrserManager.swift */,
-				8F016AFA2345D16A003E709B /* ViewModel.swift */,
+				8F859FD42347071E0035F07F /* CSVPasrserManager.swift */,
+				8F859FD52347071E0035F07F /* ViewModel.swift */,
 			);
-			name = ViewModel;
-			path = "../../../Downloads/CsvParser-dataParser/ExcelToJson/ViewModel";
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		8FCA9481234358DA00BBCDC6 = {
@@ -127,7 +126,7 @@
 		8FCA948C234358DA00BBCDC6 /* DCStatus */ = {
 			isa = PBXGroup;
 			children = (
-				8F016AF82345D16A003E709B /* ViewModel */,
+				8F859FD32347071E0035F07F /* ViewModel */,
 				8F016AF32345D158003E709B /* Model */,
 				8F016AE82345D046003E709B /* View */,
 				8FCA948D234358DA00BBCDC6 /* AppDelegate.swift */,
@@ -213,18 +212,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F016AFF2345D16A003E709B /* CSVPasrserManager.swift in Sources */,
 				8F016AD62345CD50003E709B /* ShadowView.swift in Sources */,
+				8F859FDA2347071F0035F07F /* CSVPasrserManager.swift in Sources */,
 				8FCA94A42343743C00BBCDC6 /* ProjectStatusCell.swift in Sources */,
 				8FCA94A22343737E00BBCDC6 /* InitiativeVC.swift in Sources */,
 				8F016B072346082B003E709B /* DescriptionTVCell.swift in Sources */,
 				8F016AF72345D158003E709B /* Model.swift in Sources */,
+				8F859FDB2347071F0035F07F /* ViewModel.swift in Sources */,
 				8FCA9490234358DA00BBCDC6 /* ProjectStatusVC.swift in Sources */,
 				8FCA948E234358DA00BBCDC6 /* AppDelegate.swift in Sources */,
 				8FCA94A023435EE600BBCDC6 /* Extension+SegmentedControl.swift in Sources */,
 				8F016B0B23460851003E709B /* LaunchDateTVCell.swift in Sources */,
 				8F016B0F2346088C003E709B /* OnlineMobileTVCell.swift in Sources */,
-				8F016B002345D16A003E709B /* ViewModel.swift in Sources */,
 				8F016AF62345D158003E709B /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
